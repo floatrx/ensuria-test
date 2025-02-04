@@ -1,0 +1,24 @@
+/* Custom scrollbars */
+body:not(.macos) .fancy-scrollbar {
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        @apply bg-foreground/30;
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        @apply bg-foreground/40;
+    }
+}
+
+.focusable {
+    @apply focus-visible:ring-primary outline-none focus:outline-none focus-visible:ring-2;
+}
