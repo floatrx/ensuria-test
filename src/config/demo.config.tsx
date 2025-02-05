@@ -1,5 +1,5 @@
 // Just for demo -> we can use any type of data for options, but title and value are required!
-import type { SelectOption, SelectProps } from '@/components/Select/Select.tsx';
+import type { SelectOption, SelectProps } from '@/components/Select/Select';
 import { getRandomEmoji } from '@/lib/utils/emoji.ts';
 
 export type TCustomData = { emoji?: string };

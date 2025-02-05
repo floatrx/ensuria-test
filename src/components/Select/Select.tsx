@@ -6,9 +6,9 @@ import { useNavigationKeys } from '@/lib/hooks/useNavigationKeys.ts';
 import { useClickOutside } from '@/lib/hooks/useClickOutside.ts';
 import { cn } from '@/lib/utils/cn.ts';
 
-import { selectOptionVariants, selectCommonVariants } from './select.variants.tsx';
-import { DropdownIcon } from '@/components/icons/DropdownIcon.tsx';
-import { ClearIcon } from '@/components/icons/ClearIcon.tsx';
+import { selectOptionVariants, selectCommonVariants } from './select.variants';
+import { DropdownIcon } from '@/components/icons/DropdownIcon';
+import { ClearIcon } from '@/components/icons/ClearIcon';
 
 export type SelectOption<T = Record<string, any>> = { title: string; value: string } & T;
 

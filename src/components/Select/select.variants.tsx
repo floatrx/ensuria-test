@@ -35,7 +35,7 @@ export const selectCommonVariants = tv({
  * Use this to style the select options.
  */
 export const selectOptionVariants = tv({
-  base: 'bg-field-foreground/5 text-field-foreground transition-colors duration-100 absolute top-0 left-0 w-full cursor-pointer select-none focusable line-clamp-1 text-nowrap',
+  base: 'bg-field-foreground/5 text-field-foreground absolute top-0 left-0 w-full cursor-pointer select-none focusable line-clamp-1 text-nowrap',
   variants: {
     active: {
       true: 'bg-primary text-primary-foreground'

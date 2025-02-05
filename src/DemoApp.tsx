@@ -1,5 +1,5 @@
-import { Select } from '@/components/Select/Select.tsx';
-import { selectConfigs } from '@/config/demo.config.tsx';
+import { Select } from '@/components/Select/Select';
+import { selectConfigs } from '@/config/demo.config';
 
 export const DemoApp = () => (
   <div className="text-foreground mx-auto max-w-[400px] space-y-2 p-10">

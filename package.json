@@ -13,6 +13,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.66.0",
     "@tanstack/react-virtual": "^3.12.0",
     "globals": "^15.14.0",
     "react": "^18.3.1",
