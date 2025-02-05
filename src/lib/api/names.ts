@@ -23,9 +23,8 @@ const fetchNames = async (max: number): Promise<NamesResponse> => {
  * Fetch names from Parse API hook
  * @param limit
  */
-export const useNames = (limit: number = 10) => {
-  return useQuery({
+export const useNames = (limit: number = 10) =>
+  useQuery({
     queryFn: () => fetchNames(limit),
     queryKey: ['names']
   });
-};
