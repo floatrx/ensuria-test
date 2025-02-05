@@ -7,5 +7,14 @@ export const App = () => (
 
     <SelectNamesDemo />
     <SelectVariantsDemo />
+
+    <a
+      href="https://github.com/floatrx/ensuria-test"
+      target="_blank"
+      rel="noopener"
+      className="opacity-20 transition duration-300 ease-in-out hover:opacity-100"
+    >
+      Source code on GitHub »
+    </a>
   </div>
 );
